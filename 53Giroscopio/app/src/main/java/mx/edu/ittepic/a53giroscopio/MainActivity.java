@@ -28,7 +28,6 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
         senman.registerListener((SensorEventListener) this,mysensor,SensorManager.SENSOR_DELAY_NORMAL);
 
-
     }
 
     @Override
